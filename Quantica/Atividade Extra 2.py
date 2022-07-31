@@ -75,8 +75,10 @@ def meanX3(t):
 
 plt.plot(T, meanX1(T))
 plt.title('<x>(t) para função 1')
+plt.savefig('mean_x_func_1.png')
 plt.show()
 
 plt.plot(T, meanX3(T))
 plt.title('<x>(t) para função 3')
+plt.savefig('mean_x_func_3.png')
 plt.show()
